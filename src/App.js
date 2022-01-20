@@ -31,6 +31,7 @@ import CompAdmin from "./components/Admin//companyAdmin/CompAdmin"
 import UpdateCompAdmin from "./components/Admin//companyAdmin/UpdateCompAdmin"
 import AddCompAdminAdmin from "./components/Admin/companyAdmin/AddCompAdminAdmin"
 import UpdateRentAdmin from "./components/Admin//Rent/UpdateRentAdmin"
+//
 require("dotenv").config();
 
 export default function App() {
