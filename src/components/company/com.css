@@ -1,0 +1,198 @@
+ 
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img{
+      width: 183px;
+      height: 175px;
+      border: 1px solid #c9c9c9;
+      border-radius: 25px;
+  }
+  .imggg{
+
+    margin-left: 890px;  }
+  .zz{
+    
+  }
+  .pName{
+    margin-top: -114px;
+    margin-left: 262px;
+  }
+ 
+  .card1 {
+    color: #117d9c;
+    overflow: hidden;
+    
+    height: 322px;
+
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background: url("https://f.top4top.io/p_2201eu1v61.png") left bottom/100% no-repeat #fff;
+    position: relative;
+    box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.14);
+-webkit-box-shadow: 10px 10px 5px 3px rgba(0,0,0,0.14);
+-moz-box-shadow: 10px 10px 5px 3px rgba(76, 57, 57, 0.14);
+  
+  }
+  .h4{
+
+    font-size: calc(1.275rem + .3vw);
+    margin: 36px;
+    color: #4B6587;
+}
+
+.h33{
+  padding: 24px;
+
+}
+.addC{
+  padding: 15px;
+  margin-left: 471px;
+    border: 1px outset #4B6587;
+text-align: center;
+  width: 600px;
+  height: 1196px;
+  box-shadow: 10px 6px 17px 0px rgba(115,114,114,1);
+-webkit-box-shadow: 10px 6px 17px 0px rgba(115,114,114,1);
+-moz-box-shadow: 10px 6px 17px 0px rgba(115,114,114,1);
+}
+.inputC {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* .inputC {
+  width: 90%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.buttt{
+  width: 90%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+.buttt:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.divC {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.h44{
+  color: #678ab8;
+}
+
+.pCity{
+  margin-left: 514px;
+  margin-top: -19px;
+  color: #678ab8;
+}
+.tableA {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tdA, .thA {
+  border: 1px solid #4b6587;
+  text-align: center;
+  padding: 8px;
+  background: #C8C6C6;
+  color: #4b6587;
+  font-family: arial, sans-serif;
+
+}
+
+.trA :nth-child(even) {
+  background-color: #4B6587;
+  color: #F7F6F2;
+  font-family: arial, sans-serif;
+
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .img{
+    width: 200px;
+    height: 175px;
+    margin: 24px;
+
+}
+.column {
+  width: 393px;
+    padding: 0 10px;
+}
+.card1{
+  height: 390px;
+
+}
+.addC {
+  margin-left: 9px;
+  width: 365px;
+}
+.imggg{
+
+  margin-left: 6px;
+}
+.pName{
+  margin-top: -9px;
+  margin-left: -1px;
+}
+.pCity{
+  margin-top: -9px;
+  margin-left: -1px;
+  color: #4b6587;
+}
+}
